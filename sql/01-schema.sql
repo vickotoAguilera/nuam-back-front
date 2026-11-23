@@ -147,7 +147,7 @@ CREATE TABLE tributario.factores_mensuales (
     CONSTRAINT chk_suma_factores_base CHECK (
         (factor_08 + factor_09 + factor_10 + factor_11 + 
          factor_12 + factor_13 + factor_14 + factor_15 + 
-         factor_16 + factor_17 + factor_18 + factor_19) <= 1.00000001
+         factor_16 + factor_17 + factor_18 + factor_19) <= 1.00000000
     )
 );
 
